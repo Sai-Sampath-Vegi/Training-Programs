@@ -2,7 +2,6 @@
 
 #include <math.h>
 #include <stdbool.h>
-#include <stdio.h>
 
 bool isPrime(int number)
 {
@@ -23,4 +22,5 @@ bool isPrime(int number)
        isPrime = false;
     }
     return isPrime;
+
 }
